@@ -1,14 +1,14 @@
 <?php
 /*
-Plugin Name: Gravity Forms Simple Add-On
-Plugin URI: http://www.gravityforms.com
-Description: A simple add-on to demonstrate the use of the Add-On Framework
-Version: 1.1
-Author: Rocketgenius
-Author URI: http://www.rocketgenius.com
+Plugin Name: Alabama District CKI Gravity Forms Add-On
+Plugin URI: http://www.alabamacki.com
+Description: A add-on to add Dynamic Fields and Reporting Dashboard to Gravity Forms
+Version: 0.1
+Author: Kyle Pierce
+Author URI: http://www.kyledpierce.com
 
 ------------------------------------------------------------------------
-Copyright 2012-2013 Rocketgenius Inc.
+Copyright 2015 Pierce Productions Media, LLC
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -32,13 +32,13 @@ if (class_exists("GFForms")) {
 
     class GFSimpleAddOn extends GFAddOn {
 
-        protected $_version = "1.1";
+        protected $_version = "0.1";
         protected $_min_gravityforms_version = "1.7.9999";
-        protected $_slug = "simpleaddon";
-        protected $_path = "asimpleaddon/asimpleaddon.php";
+        protected $_slug = "ckiforms";
+        protected $_path = "ckiforms/ckiforms.php";
         protected $_full_path = __FILE__;
-        protected $_title = "Gravity Forms Simple Add-On";
-        protected $_short_title = "Simple Add-On";
+        protected $_title = "CKI Gravity Forms Add-On";
+        protected $_short_title = "CKI Add-On";
 
         public function init(){
             parent::init();
